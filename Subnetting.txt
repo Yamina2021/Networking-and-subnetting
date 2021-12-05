@@ -1,0 +1,384 @@
+**************Binary To Decimal Conversion******************
+
+10010010 146
+01110111 119
+11111111 255
+11000101 197
+11110110 246
+00010011 19
+10000001 129
+00110001 49
+01111000 120
+11110000 240
+00111011 59
+00000111 7
+*********************
+00011011 27
+10101010 170
+01101111 111
+11111000 248
+00100000 32
+01010101 85
+00111110 62
+00000011 3
+11101101 237
+11000000 192
+
+*********************Decimal To Binary Conversion*********************
+123 01111011
+50  00110010
+255 11111111
+200 11001000
+10  00001010
+138 10001010
+1   00000001
+13  00001101
+250 11111010
+107 01101011
+224 11100000
+114 01110010
+192 11000000
+172 10101100
+100 01100100
+119 01110111
+57  00111001
+98  01100010
+179 10110011
+2   00000010
+
+
+*************************Address Class Identification**********************
+10.250.1.1    A
+150.10.15.0   B
+192.14.2.0    C
+148.17.9.1    B
+193.42.1.1    C 
+126.8.156.0   A
+220.200.23.1  C 
+230.230.45.58 D
+177.100.18.4  B
+119.18.45.0   A
+249.240.80.78 E
+199.155.77.56 C
+117.89.56.45  A
+215.45.45.0   C
+199.200.15.0  C
+95.0.21.90    A
+33.0.0.0      A
+158.98.80.0   B
+219.21.56.0   C
+
+*********************Network & Host Identification******************************
+
+Circle the network portion of these addresses:
+
+177.100.18.4  ==>177.100
+119.18.45.0   ==>199
+209.240.80.78 ==>240.80
+199.155.77.56 ==>199.155.77
+117.89.56.45  ==>117
+215.45.45.0   ==>215.45.45
+192.200.15.0  ==>192.200.15
+95.0.21.90    ==>95
+33.0.0.0      ==>33
+158.98.80.0   ==>158.98
+217.21.56.0   ==>217.21.56
+10.250.1.1    ==>10
+150.10.15.0   ==>150.10
+192.14.2.0    ==>192.14.2
+148.17.9.1    ==>148.17
+193.42.1.1    ==>193.42.1
+126.8.156.0   ==>126
+220.200.23.1  ==>220.200.23
+
+Circle the host portion of these addresses:
+
+10.15.123.50  ==>15.123.50
+171.2.199.31  ==>199.31
+198.125.87.177==>177
+223.250.200.222=>222
+17.45.222.45  ==>45.222.45
+126.201.54.231==>201.54.231
+191.41.35.112 ==>35.112
+155.25.169.227==>169.227
+192.15.155.2  ==>2
+123.102.45.254==>102.45.254
+148.17.9.155  ==>9.155
+100.25.1.1    ==>25.1.1
+195.0.21.98   ==>98
+25.250.135.46 ==>250.135.46
+171.102.77.77 ==>77.77
+55.250.5.5    ==>250.5.5
+218.155.230.14==>14
+10.250.1.1    ==>250.1.1
+
+**********************************Network Addresses****************************
+192.149.24.191 _____________________________192.149.24.0
+255.255.255.0
+
+150.203.23.19  _____________________________150.203.0.0
+255.255.0.0
+
+10.10.10.10    _____________________________10.0.0.0
+255.0.0.0
+
+186.13.23.110  _____________________________186.13.23.0
+255.255.255.0
+
+223.69.230.250 _____________________________223.69.0.0
+255.255.0.0
+
+200.120.135.15 _____________________________200.120.135.0
+255.255.255.0
+
+27.125.200.151 _____________________________27.0.0.0
+255.0.0.0
+
+199.20.150.35 _____________________________199.20.150.0
+255.255.255.0
+
+191.55.165.135 _____________________________191.55.165.0
+255.255.255.0
+
+28.212.250.254 _____________________________28.212.0.0 
+255.255.0.
+
+************************Host Addresses*******************************
+222.49.49.11
+255.255.255.0  ____________________________0.0.0.11
+
+128.23.230.19
+255.255.0.0    _____________________________0.0.230.19
+
+10.10.10.10
+255.0.0.0      _____________________________10.10.10
+
+200.113.123.11
+255.255.255.0  _____________________________0.0.0.11
+
+223.169.23.20
+255.255.0.0    _____________________________0.0.23.20
+ 
+203.20.35.215
+255.255.255.0  _____________________________0.0.0.215
+
+117.15.2.51
+255.0.0.0      _____________________________0.15.2.51
+
+199.120.15.135
+255.255.255.0  _____________________________0.0.0.135
+
+191.55.165.135
+255.255.255.0  _____________________________0.0.0.135
+
+48.21.25.54
+255.255.0.0    _____________________________0.0.25.54
+
+****************Default Subnet Masks**************************
+
+191.249.234.191   _____________________________255.255.0.0
+223.23.223.109    _____________________________255.255.255.0
+10.10.250.1       _____________________________255.0.0.0
+126.123.23.1      _____________________________255.0.0.0
+223.69.230.250    _____________________________255.255.255.0
+192.12.35.105     _____________________________255.255.255.0
+77.251.200.51     _____________________________255.0.0.0
+189.210.50.1      _____________________________255.255.0.0
+88.45.65.35       _____________________________255.0.0.0
+128.212.250.254   _____________________________255.255.0.0
+193.100.77.83     _____________________________255.255.255.0
+125.125.250.1     _____________________________255.0.0.0
+1.1.10.50         _____________________________255.0.0.0
+220.90.130.45     _____________________________255.255.255.0
+134.125.34.9      _____________________________255.255.0.0
+95.250.91.99      _____________________________255.0.0.0
+
+****************************Custom Subnet Masks***********************
+Problem 4::
+
+Nb of needed subnets :6
+Nb of needed usable hosts:30
+Network Address :210.100.56.0
+
+Address Class :c
+default subnet mask :255.255.255.0
+custom subnet mask:255.255.255.224
+Total number of subnets:8
+total number of hosts addresses:32
+Number of usable address:30
+Number of bits Borrowed:3
+
+*********************************
+Problem 5::
+
+Nb of needed subnets :6
+Nb of needed usable hosts:30
+Network Address :195.85.8.0
+
+Address Class :c
+default subnet mask :255.255.255.0
+custom subnet mask:255.255.255.224
+Total number of subnets:8
+total number of hosts addresses:32
+Number of usable address:30
+Number of bits Borrowed:3
+
+*************************************
+
+ Problem 6::
+
+Nb of needed subnets :126
+Nb of needed usable hosts:131.070
+Network Address :118.0.0.0
+
+Address Class :A
+default subnet mask :255.0.0.0
+custom subnet mask:255.254.0.0
+Total number of subnets:128
+total number of hosts addresses:131.072
+Number of usable address:131.070
+Number of bits Borrowed:7
+
+****************************************
+ Problem 7::
+
+Nb of needed subnets :2000
+Nb of needed usable hosts:15
+Network Address :178.100.0.0
+
+Address Class :B
+default subnet mask :255.255.0.0
+custom subnet mask:255.255.255.224
+Total number of subnets:2048
+total number of hosts addresses:32
+Number of usable address:30
+Number of bits Borrowed:11
+
+*************************************
+ Problem 8::
+
+Nb of needed subnets :3
+Nb of needed usable hosts:45
+Network Address :200.175.14.0
+
+Address Class :C
+default subnet mask :255.255.255.0
+custom subnet mask:255.255.255.192
+Total number of subnets:4
+total number of hosts addresses:64
+Number of usable address:62
+Number of bits Borrowed:2
+
+**************************************
+ Problem 9::
+
+Nb of needed subnets :60
+Nb of needed usable hosts:1000
+Network Address :128.77.0.0
+
+Address Class :B
+default subnet mask :255.255.0.0
+custom subnet mask:255.255.252.0
+Total number of subnets:64
+total number of hosts addresses:1024
+Number of usable address:1022
+Number of bits Borrowed:6
+
+**********************************************
+
+ Problem 10 ::
+
+
+Nb of needed usable hosts:60
+Network Address :198.100.10.0
+
+Address Class :C
+default subnet mask :255.255.255.0
+custom subnet mask:255.255.255.192
+Total number of subnets:4
+total number of hosts addresses:64
+Number of usable address:62
+Number of bits Borrowed:2
+
+**********************************************
+ Problem 11::
+
+Nb of needed subnets :250
+Network Address :101.0.0.0
+
+Address Class :A
+default subnet mask :255.0.0.0
+custom subnet mask:255.255.0.0
+Total number of subnets:256
+total number of hosts addresses:65.536
+Number of usable address:65.534
+Number of bits Borrowed:8
+****************************************************
+ Problem 13::
+
+Nb of needed usable hosts :25
+Network Address :218.35.50.0
+
+Address Class :C
+default subnet mask :255.255.255.0
+custom subnet mask:255.255.255.224
+Total number of subnets:8
+total number of hosts addresses:32
+Number of usable address:30
+Number of bits Borrowed:3
+********************************************************
+ Problem 12::
+
+Nb of needed subnets :5
+Network Address :218.35.50.0
+
+Address Class :C
+default subnet mask :255.255.255.0
+custom subnet mask:255.255.255.224
+Total number of subnets:8
+total number of hosts addresses:32
+Number of usable address:30
+Number of bits Borrowed:3
+
+**********************************************************
+ Problem 14::
+
+Nb of needed subnets :10
+Network Address :172.59.0.0
+
+Address Class :B
+default subnet mask :255.255.0.0
+custom subnet mask:255.255.240.0
+Total number of subnets:16
+total number of hosts addresses:4096
+Number of usable address:4094
+Number of bits Borrowed:4
+********************************************************
+ Problem 15::
+
+Nb of needed usable hosts :50
+Network Address :172.59.0.0
+
+Address Class :B
+default subnet mask :255.255.0.0
+custom subnet mask:255.255.255.192
+Total number of subnets:1024
+total number of hosts addresses:64
+Number of usable address:62
+Number of bits Borrowed:10
+******************************************************
+ Problem 16::
+
+Nb of needed usable hosts :29
+Network Address :23.0.0.0
+
+Address Class :A
+default subnet mask :255.0.0.0
+custom subnet mask:255.255.255.224
+Total number of subnets:524.288
+total number of hosts addresses:32
+Number of usable address:30
+Number of bits Borrowed:19
+
+**************************************************************
+
